@@ -322,7 +322,7 @@ Show
 	SetBackgroundColor 255 255 255 255      # BACKGROUND:	 T0 Drop
 	PlayEffect Red
 	MinimapIcon 0 Red Diamond
-CustomAlertSound "mtc.mp3"
+CustomAlertSound "tenshini.mp3"
 
 #===============================================================================================================
 # [[0300]] INFLUENCE EXCEPTIONS
@@ -5083,7 +5083,7 @@ SetBorderColor 175 96 37 255             # BORDERCOLOR:	 Aspect Unique
 SetBackgroundColor 255 255 255 255       # BACKGROUND:	 T0 Drop
 PlayEffect Red
 MinimapIcon 0 Red Star
-CustomAlertSound "usatei.mp3"
+CustomAlertSound "listen.mp3"
 
 Show # $tier->t2 $type->unique->maps
 Rarity Unique
@@ -6134,7 +6134,7 @@ SetBackgroundColor 240 90 35 255         # BACKGROUND:	 Currency T2
 DisableDropSound True
 PlayEffect Red
 MinimapIcon 0 Red Circle
-CustomAlertSound "happyraph.mp3"
+CustomAlertSound "endingshock.mp3"
 
 Show # $tier->t3 $type->currency->deliriumorbs
 Class Currency
@@ -6192,7 +6192,6 @@ SetFontSize 45
 SetTextColor 0 0 0 255                   # TEXTCOLOR:	 High Special Base
 SetBorderColor 0 0 0                     # BORDERCOLOR:	 Neutral T1.5
 SetBackgroundColor 213 159 0 255         # BACKGROUND:	 Currency T4
-CustomAlertSound "2currency.mp3"         # DROPSOUND:	 Currency Sound
 PlayEffect White
 MinimapIcon 2 White Circle
 
@@ -6281,7 +6280,7 @@ SetBorderColor 0 0 0 255                 # BORDERCOLOR:	 Neutral T1
 SetBackgroundColor 249 150 25 255        # BACKGROUND:	 Currency T3
 PlayEffect White
 MinimapIcon 1 Yellow Hexagon
-CustomAlertSound "slapah.mp3"
+CustomAlertSound "cute1.mp3"
 
 Show # %HS3 $tier->t4 $type->currency->oil
 Class Currency
@@ -6291,7 +6290,7 @@ SetTextColor 0 0 0 255                   # TEXTCOLOR:	 High Special Base
 SetBorderColor 0 0 0 200                 # BORDERCOLOR:	 Neutral T2
 SetBackgroundColor 210 178 135 255       # BACKGROUND:	 Currency T5
 PlayEffect White Temp
-CustomAlertSound "achew.mp3"
+CustomAlertSound "cute2.mp3"
 
 Show # $tier->restex $type->currency->oil $safe
 Class Currency
@@ -6542,7 +6541,7 @@ SetBorderColor 0 0 0 255                 # BORDERCOLOR:	 Neutral T1
 SetBackgroundColor 249 150 25 255        # BACKGROUND:	 Currency T3
 PlayEffect White
 MinimapIcon 2 White Circle
-CustomAlertSound "jaimepasca2.mp3"
+CustomAlertSound "kawaii.mp3"
 
 Show # %HS3 $tier->t4 $type->currency->incubators
 Class Incubator
@@ -6736,7 +6735,7 @@ SetBorderColor 0 0 255 255               # BORDERCOLOR:	 Divi T1
 SetBackgroundColor 255 255 255 255       # BACKGROUND:	 T0 Drop
 PlayEffect Red
 MinimapIcon 0 Red Star
-CustomAlertSound "tenshini.mp3"
+CustomAlertSound "fuwafuwaokayu.mp3"
 
 #------------------------------------
 #   [5102] T2 - Great cards
@@ -7111,7 +7110,7 @@ Show # $tier->6l $type->ex->uniques
 	SetBackgroundColor 175 96 37 255        # BACKGROUND:	 Unique T2
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-CustomAlertSound "shinyhappydays.mp3"
+CustomAlertSound "lazy.mp3"
 
 Show # $tier->piece $type->ex->uniques
 	Class Piece
