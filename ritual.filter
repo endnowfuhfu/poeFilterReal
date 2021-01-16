@@ -7199,14 +7199,13 @@ Show # $tier->piece $type->ex->uniques
 #------------------------------------
 
 # FilterBlade: Conditional Entry
-Show 
+Hide 
 Rarity Unique
 SetTextColor 175 96 37 255
 SetBackgroundColor 0 0 0 255
 SetBorderColor 175 96 37 255
 SetFontSize 42
-BaseType == "Prophet Crown" "Prismatic Jewel" "Infernal Sword" "Sulphur Flask" "Silver Flask"
-CustomAlertSound "sirusdie.mp3"
+BaseType == "Prismatic Jewel" "Prophet Crown" "Infernal Sword" "Sulphur Flask" "Silver Flask"
 
 Show # $tier->t1 $type->uniques
 Rarity Unique
